@@ -65,6 +65,7 @@
                         </exclude>
                     </excludes>
                 </configuration>
+                <inherited>false</inherited>
             </plugin>
         </plugins>
     </build>
