@@ -14,7 +14,7 @@ public class TimeUtils {
             LocalDateTime.parse(s, dateTimeFormatter.withResolverStyle(ResolverStyle.STRICT));
         }
         catch (Exception e) {
-            log.error("Find invalid datetime string {}", s, e);
+            log.error("[ERROR] Find invalid datetime string {}", s, e);
             return false;
         }
         return true;
